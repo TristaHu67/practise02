@@ -1,0 +1,1363 @@
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    height: calc(var(7px) * 100);
+    z-index: 101;
+    padding: 25px;
+    
+}
+
+.nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    max-width: 450px;
+    background: #fff;
+    transition: 0.3s;
+    width: 450px;
+    height: 100%;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    transform: translateX(-450px);
+}
+.is-open{
+    opacity: 1;
+    transform: translateX(0);
+    z-index: 100;
+}
+
+.navlist{
+    width: 150px;
+    margin: auto;
+}
+
+.nav li{
+    margin: 45px 0 0 0;
+    line-height: 1;
+}
+
+.navinner .en{
+    display: block;
+    font-size: 29px;
+    font-weight: 200;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.navinner .ja{
+    display: block;
+    font-family: "秀英明朝 L", "Shuei Mincho";
+    font-size: 12px;
+}
+button{
+    cursor: pointer;
+}
+
+button:focus {
+    outline: none;
+    border: none;
+}
+.top-bg{
+    height: 65px;
+}
+.menuBtn{
+    position: absolute;
+    top: 50%;
+    left: 13px;
+    transform: translate(0, -50%);
+    color: inherit;
+    font-family: inherit;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+    background: none;
+    appearance: none;
+    outline: none;
+}
+.menu2_txt{
+    position: relative;
+}
+
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Noto Sans JP', 'Josefin Sans', inherit, sans-serif;
+    font-size: 14px;
+    line-height: 1.8;
+    font-weight: 400;
+    letter-spacing: 0.1em;
+    background: url(./images/bg.png) ;
+    background-attachment: fixed;
+    background-size: cover ;
+}
+
+
+
+.navinner a{
+    color: black;
+    text-decoration: none;
+}
+
+.about-section{
+    margin-bottom: 153px;
+}
+.about-section h2{
+    height: 105px;
+    padding-left: 10%;
+    display: flex;
+    flex-direction: column;
+}
+.about_01 {
+    display: flex;
+    justify-content: space-between;
+}
+.en{
+    font-size: 4.18182vw;
+    font-weight: 200;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.about_01_text {
+    width: 45%;
+    margin-top: -40px;
+}
+.about_img1{
+    width: 45%;
+    margin-top: 170px;
+}
+
+.about_01_text h3 {
+    font-size: 3.27273vw;
+    font-weight: 100;
+    font-family: "秀英明朝 L", "Shuei Mincho";
+}
+
+.about_01_text p {
+    font-family: "秀英明朝 L", "Shuei Mincho";
+    font-size: 1.09091vw;
+    line-height: 2.8;
+}
+
+.about_01_text_i {
+    margin-top: 50px;
+}
+
+.about_01_text_ii {
+    margin-top: 43.09px;
+}
+
+.about_img1 img {
+    max-width: 100%;
+}
+
+.about_img2 img {
+    max-width: 100%;
+}
+
+.about_img3 img {
+    max-width: 100%;
+}
+.about_02 {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.about_02_col_1 {
+    margin-top: 15%;
+    width: 50%;
+}
+.about_02_col_2 {
+    margin-top: -24%;
+    width: 38%;
+}
+.about_img2_text {
+    margin-top: 41.6px;
+    display: flex;
+}
+.about_img3_text{
+    margin-top: 31.25px;
+    display: flex;
+}
+.t00{
+    -webkit-writing-mode: vertical-rl;
+    -ms-writing-mode: tb-rl;
+    writing-mode: vertical-rl;
+    line-height: 51px;
+}
+.t00 p{
+    font-size: 12px;
+}
+.bit_text h3{
+    font-size: 2.18182vw;
+    font-weight: 100;
+    font-family: '秀英明朝 L', 'Shuei Mincho';
+    margin-bottom: 15px;
+}
+.bit_text_p_v1{
+    font-size: 1vw;
+    display: block;
+}
+.bit_text_p_v2{
+    display: none;
+}
+
+.bg_img{
+    background-image: url(./images/about_btm.png);
+    height: 660px;
+    background-size: cover;
+    background-attachment: fixed;
+    display: block;
+}
+.bg_img_v2{
+    height: 440px;
+    background: url(./images/about_btm-sp0503.png);
+    background-size: cover;
+    background-attachment: fixed;
+    display: none;
+}
+.quality_section{
+    color: #fff;
+    background: #777E90;
+    padding: 10vw 10%;
+    
+}
+.q-wrap{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+.quality_title{
+    display: flex;
+    flex-direction: column;
+}
+.qualitySlider{
+    width: 29%;
+}
+.card-title{
+    text-align: center;
+    margin-bottom: 2.36364vw;
+    border-bottom: 1px solid rgba(255,255,255,0.3);
+    padding: 2.36364vw 0;
+    line-height: 1.4;
+    font-size: 2vw;
+    
+}
+.card-text{
+    font-size: 1vw;
+}
+.card{
+    width: 29%;
+}
+.qualitySlider_no{
+    font-size: 4.09091vw;
+    line-height: 1;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 200;
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    top: -2vw;
+    left: 0%;
+    width: 100%;
+}
+.qs{
+    position: relative;
+}
+.qualityBtm_img{
+    background: url(./images/quality_btm.png);
+    height: 660px;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.menu_section h2{
+    display: flex;
+    flex-direction: column;
+    line-height: 1.5;
+    margin-bottom: 60px;
+    width: 84%;
+}
+.ms_text_01{
+    font-weight: 200;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 4.18182vw;
+}
+.ms_text_02{
+    font-family: '秀英明朝 L', 'Shuei Mincho';
+    font-size: 1.18182vw;
+}
+.menu_section{
+    padding-top: 10%;
+    background: #fff;
+    padding-left: 10%;
+    padding-bottom: 128px;
+}
+.menuBox{
+    display: flex;
+    justify-content: space-between;
+    width: 84%;
+}
+.mbc_text01{
+    font-size: 1vw;
+}
+.menuBox_cnt{
+    display: flex;
+    
+}
+.mbc_text02{
+    padding-left: 7%;
+}
+.mbc_text02 h3{
+    font-size: 2.18182vw;
+    font-family: "秀英明朝 L", "Shuei Mincho";
+    margin: 4% 0px;
+}
+.mbc_text02 p{
+    font-size: 1vw;
+    width: 80%;
+
+}
+.menuBox_cnt{
+    width: 48%;
+}
+.menuBox_img{
+    width: 45%;
+    
+}
+.menuBox_img img{
+    max-width: 100%;
+    height: auto;
+    font-size: 0;
+    line-height: 0;
+    vertical-align: bottom;
+}
+.mi_02{
+    width: 50%;
+    margin: -15% 0 0 -10%;
+}
+.mi_02 img{
+    max-width: 100%;
+    height: auto;
+    font-size: 0;
+    line-height: 0;
+    vertical-align: bottom;
+}
+.mi_03{
+    margin-top: 15%;
+    display: flex;
+}
+.mi_03_text{
+    display: flex;
+    width: 40%;
+}
+
+.mi_03_img{
+    width: 65%;
+    /* margin-right: -10%; */
+}
+.mi_03_img img{
+    max-width: 100%;
+    height: auto;
+    font-size: 0;
+    line-height: 0;
+    vertical-align: bottom;
+}
+
+.menu_bg{
+    padding: 10% 0 5%;
+    background: url(./images/menu_bg.png);
+    background-size: cover;
+}
+
+.menu_wrap_container{
+    overflow: hidden;
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+    
+}
+.menu_wrap{
+    display: flex;
+    margin-left: 3%;
+}
+.mw_box_0{
+    margin: 0 3%;
+    width: 426.667px;
+    flex-shrink: 0;
+}
+.mw_box_0 img{
+    max-width: 100%;
+}
+
+.mw_box_text{
+    display: flex;
+    margin-top: 30px;
+}
+.mw_box_text_cnt{
+    display: flex;
+    flex-direction: column;
+    padding-left: 15px;
+}
+.mw_box_text_cnt h3{
+    font-size: 1.90909vw;
+    font-weight: 100;
+    font-family: "秀英明朝 L", "Shuei Mincho";
+    font-size: 24px;
+}
+.mw_box_text_cnt p{
+    font-size: 14px;
+    font-weight: 100;
+    font-family: "秀英明朝 L", "Shuei Mincho";
+}
+.bg_t{
+    display: flex;
+}
+.bg_c{
+    margin-top: 5%;
+}
+.bg_c_01{
+    margin-top: 5%;
+}
+
+.bg_c_2{
+    display: none;
+}
+
+.bg_memo_wrap{
+    background: url(./images/menu_bg.png);
+    background-size: auto;    
+}
+.bg_memo{
+    width: 84%;
+    margin: 0 auto;
+    padding-bottom: 15%;
+}
+.bg_memo p{
+    font-size: .81818vw;
+    color: #848484;
+}
+
+.buy_wrap{
+    font-size: 1.36364vw;
+    font-family: '秀英明朝 L', 'Shuei Mincho';
+    width: 80%;
+    color: #fff;
+    padding: 3% 0%;
+    background: #777E90;
+    margin:-10% auto 0;
+    position: relative;
+    z-index: 3;
+}
+.buy_wrap_boxs{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 5%;
+}
+.buy_wrap_title{
+    text-align: center;
+    margin-bottom: 4%;
+}
+.buy_wrap_boxs_0{
+    width: 30%;
+}
+
+.buy_wrap_boxs_0 a:hover{
+    text-decoration: none;
+    color: black;
+}
+
+.bwb_a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px #fff solid;
+    width: 100%;
+    height: 80px;
+    color: inherit;
+    text-decoration: none;
+    position: relative;
+}
+.buy_wrap_boxs_0 span{
+    position: absolute;
+    right: 5%;
+}
+
+
+.store_section{
+    padding: 150px 0;
+    background: #fff;
+    margin-top: -10%;
+
+}
+.store_section_inner{
+    width: 80%;
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 150px 0;
+}
+.ssi_title h2{
+    display: flex;
+    flex-direction: column;
+}
+.ssi_t_01{
+    font-size: 4.18182vw;
+    font-weight: 200;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.ssi_t_02{
+    font-family: '秀英明朝 L', 'Shuei Mincho';
+    font-size: 1.18182vw;
+}
+.ssi_cnt{
+    width: 75%;
+}
+.ssi_cnt dl{
+    display: flex;
+    border-top: 1px solid #D0D0D0;
+    margin-bottom: 0rem;
+}
+.ssi_cnt dt{
+    font-weight: 500;
+    width: 20%;
+    padding: 4% 0;
+}
+.ssi_cnt dd{
+    width: 80%;
+    padding: 4% 0;
+    margin-bottom: 0rem;
+}
+
+.faq{
+    padding: 200px 0;
+}
+.faq_wrap_01{
+    width: 900px;
+    margin: 0 auto;
+    padding: 60px 80px 90px;
+    background: #fff;
+}
+.faq_title h2{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 60px;
+    line-height: 1.5;
+}
+.ft_01{
+    font-size: 53px;
+    font-weight: 200;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.ft_02{
+    font-family: '秀英明朝 L', 'Shuei Mincho';
+    font-size: 17px;
+}
+.faq_cnt_01{
+    font-size: 16px;
+    padding: 30px 0;
+    border-top: 1px solid #D0D0D0;
+    cursor: pointer;
+    position: relative;
+}
+.faq_icon{
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    right: 20px;
+    /* transform: rotate(45deg); */
+    transition: 0.3s;
+}
+.faq_icon:before{
+    width: 1px;
+    height: 100%;
+    left: 50%;
+    top: 0;
+    background: #707070;
+    content: "";
+    display: block;
+    position: absolute
+}
+.faq_icon:after{
+    width: 100%;
+    height: 1px;
+    top: 50%;
+    left: 0;
+    background: #707070;
+    content: "";
+    display: block;
+    position: absolute
+}
+
+.faq_wrap_02{
+    width: 900px;
+    margin: 80px auto 0;
+    padding: 60px 80px 90px;
+    background: #fff;
+}
+.f02_title{
+    line-height: 1.5;
+    margin-bottom: 60px;
+    display: flex;
+    flex-direction: column;
+}
+.f02_title_a{
+    font-size: 4.18182vw;
+    font-weight: 200;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.f02_title_b{
+    font-family: "秀英明朝 L", "Shuei Mincho";
+    font-size: 1.18182vw;
+}
+.contant_wrap_cnt{
+    margin-bottom: 50px;
+}
+.c-red {
+    color: #f00;
+}
+.selectBox select{
+    width: 100%;
+    height: 47px;
+    padding: 8px 12px;
+    background-color: #F4F4F4;
+    border-style: none;
+    appearance: none;
+}
+.selectBox{
+    position: relative;
+}
+.selectBox:before {
+    content: "";
+    display: block;
+    width: 16px;
+    height: 16px;
+    border-bottom: 1px solid #707070;
+    border-left: 1px solid #707070;
+    position: absolute;
+    top: 12px;
+    right: 25px;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+input{
+    width: 100%;
+    height: 47px;
+    padding: 8px 12px;
+    background-color: #F4F4F4;
+    border: none;
+}
+dd{
+    margin-top: 8px;
+}
+dl{
+    margin-top: 22px;
+}
+textarea{
+    height: 210px;
+    width: 100%;
+    padding: 8px 12px;
+    background-color: #F4F4F4;
+    border: none;
+}
+button{
+    cursor: pointer;
+}
+.r_icon{
+    height: 5px;
+    line-height: 5px;
+    display: inline-block;
+    position: absolute;
+    right: 15px;
+    top: calc(50% - 7px);
+}
+.typesquare_option{
+    position: relative;
+    color: #fff;
+    font-size: 21px;
+    font-family: '秀英明朝 L', 'Shuei Mincho';
+    width: 400px;
+    height: 80px;
+    background: #777E90;
+    border: 1px solid #777E90;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+.contactFormBtn{
+    text-align: center;
+    margin-top: 80px;
+}
+
+.bottomCnt{
+    padding: 100px 0 200px;
+    font-size: 17px;
+    font-size: 1.27273vw;
+    font-family: '秀英明朝 L', 'Shuei Mincho';
+    text-align: center;
+    line-height: 3.5;
+}
+.bottomCnt_02{
+    margin-top: 90px;
+}
+footer{
+    display: flex;
+    justify-content: center;
+}
+
+small{
+    padding: 100px 0;
+    color: #848484;
+    font-size: 12px;
+}
+
+@media screen and (max-width: 767px){
+    body {
+        font-size: 4vw;
+    }
+    
+.about-section h2{
+    height: 167px;
+    margin-bottom: 76px;
+}
+
+.about_01 {
+    flex-direction: column;
+    justify-content: center;
+}
+.en{
+    display: block;
+    font-size: 10.28571vw;
+}
+.ja{
+    font-family: "秀英明朝 L", "Shuei Mincho";
+    font-size: 4.28571vw;
+    margin-top:5px ;
+    margin-bottom: 5px;
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    height: calc(var(7px) * 100);
+    z-index: 101;
+    padding: 25px;
+    
+}
+.headerinner_a{
+    display: none;
+}
+.menuBtn{
+    top: 40px;
+    left: 13px;
+}
+.menu2_txt{
+    width: 43px;
+}
+.menuBtn p{
+    font-size: 13px;
+}
+.about_01_text {
+    width: 100%;
+    margin-top: -40px;
+    margin: 0 auto;
+    width: 84%;
+}
+.about_img1{
+    width: 100%;
+    margin-top: 153px;
+    order: 1;
+}
+
+.about_01_text h3 {
+    font-size: 10vw;
+    font-weight: 500;
+}
+.about_01_text p {
+    font-size: 3.71429vw;
+}
+
+.about_01_text_i {
+    margin-top: 50px;
+}
+
+.about_01_text_ii {
+    margin-top: 43.09px;
+}
+
+.about_img1 img {
+    max-width: 100%;
+}
+
+.about_img2 img {
+    max-width: 90%;
+}
+.about_img2{
+    width: 90%;
+    margin: 0 0 0 auto;
+}
+
+.about_img3 img {
+    max-width: 80%;
+}
+.about_02 {
+    width: 100%;
+    margin: 0 auto;
+    flex-direction: column;
+    justify-content: center;
+}
+.about_02_col_1 {
+    margin-top: 15%;
+    width: 100%;
+    order:1;
+}
+.about_02_col_2 {
+    margin-top: 15%;
+    width: 100%;
+}
+.about_img2_text {
+    margin-top: 41.6px;
+    display: flex;
+    width: 84%;
+    margin: 10% auto 0;
+}
+.about_img3_text{
+    width: 84%;
+    margin: 10% auto 0;
+}
+.t00{
+    -webkit-writing-mode: vertical-rl;
+    -ms-writing-mode: tb-rl;
+    writing-mode: vertical-rl;
+    line-height: 51px;
+    font-size: 26px;
+}
+.t00 p{
+    font-size: 12px;
+}
+.bit_text h3{
+    font-size: 7.42857vw;
+    margin-bottom: 5%;
+    font-weight: 400;
+}
+.bit_text_p_v1{
+    display: none;
+}
+.bit_text_p_v2{
+    display: block;
+    font-size: 3.71429vw;
+}
+
+.bg_img{
+    display: none;
+}
+.bg_img_v2{
+    display: block;
+}
+
+.quality_section{
+    color: #fff;
+    background: #777E90;
+    padding: 10vw 10%;
+    
+}
+.q-wrap{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    width: 100%;
+    margin-top: 0;
+}
+.quality_title{
+    display: flex;
+    flex-direction: column;
+}
+.qualitySlider{
+    width: 100%;
+}
+.card-title{
+    margin-bottom: 7vw;
+    padding: 7vw 0;
+    font-size: 7.42857vw;
+    
+}
+.card-text{
+    font-size: 3.71429vw;
+}
+.card{
+    width: 100%;
+    margin-top: 20vw;
+}
+.qualitySlider_no{
+    font-size: 13.71429vw;
+    line-height: 1;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 200;
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    top: -6.5vw;
+    left: 0%;
+    width: 100%;
+}
+.qs{
+    position: relative;
+}
+.qs:before{
+    content: "";
+    display: block;
+    width: 104%;
+    height: 104%;
+    border-radius: 50%;
+    position: absolute;
+    top: -1.2%;
+    left: -2%;
+    background: rgba(0,43,80,0.2);
+}
+
+.qualityBtm_img{
+    background: url(./images/quality_btm.png);
+    height: 440px;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 50%;
+}
+
+.menu_section h2{
+    margin-bottom: 10%;
+    width: 84%;
+    margin: 0 auto;
+    margin-bottom: 10%;
+}
+.ms_text_01{
+    font-size: 10.28571vw;
+}
+.ms_text_02{
+    font-size: 4.28571vw;
+}
+.menu_section{
+    padding-top: 10%;
+    padding-left: 0%;
+    padding-bottom: 15%;
+}
+.menuBox{
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    width: 84%;
+}
+.mbc_text01{
+    font-size: 3.42857vw;
+}
+.menuBox_cnt{
+    display: flex;
+    
+}
+.mbc_text02{
+    padding-left: 7%;
+    width: 100%;
+}
+.mbc_text02 h3{
+    font-size: 8vw;
+    margin: 4% 0px;
+}
+.mbc_text02 p{
+    font-size: 4vw;
+    width: 100%;
+
+}
+.menuBox_cnt{
+    width: 100%;
+}
+.menuBox_img{
+    width: 70%;
+    margin: 0 0 0 auto;
+}
+.menuBox_img img{
+    max-width: 100%;
+    height: auto;
+    font-size: 0;
+    line-height: 0;
+    vertical-align: bottom;
+}
+.mi_02{
+    width: 96%;
+    margin: 15% 0 0 -10%;
+}
+.mi_03{
+    display: flex;
+    flex-direction: column;
+    margin: 15% auto 0;
+    width: 84%;
+}
+.mi_03_text{
+    display: flex;
+    width: 100%;
+    margin-bottom: 15%;
+}
+
+.mi_03_img{
+    width: 109%;
+}
+
+.menu_bg{
+    padding: 28% 0 5%;
+    background: url(./images/menu_bg.png);
+    background-size: cover;
+}
+
+.menu_wrap_container{
+    overflow: hidden;
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+.menu_wrap{
+    display: flex;
+    margin-left: 3%;
+    width: 100%;
+}
+.mw_box_0{
+    margin-right: 25px;
+    flex-shrink: 0;
+}
+.mw_box_0 img{
+    width: 100%;
+}
+
+.mw_box_text{
+    display: flex;
+    margin-top: 30px;
+}
+.mw_box_text_cnt{
+    display: flex;
+    flex-direction: column;
+    padding-left: 0px;
+}
+.mw_box_text_cnt h3{
+    font-size: 5.71429vw;
+}
+.mw_box_text_cnt p{
+    font-size: 26px;
+}
+.bg_c{
+    display: none;
+}
+.bg_c_01{
+    margin-top: 5%;
+}
+.bg_c_2{
+    display: block;
+    font-size: 28.45px;
+    margin-top: 5%;
+}
+.bg_memo p{
+    font-size: 2.85714vw;
+    font-weight: 400;
+}
+.m_t_5{
+    margin-top: 5%;
+}
+
+
+.buy_wrap{
+    font-size: 3.71429vw;
+    width: 100%;
+    padding: 15% 8%;
+    margin: 0 auto;
+}
+.buy_wrap_boxs{
+    flex-direction: column;
+    justify-content: center;
+}
+.buy_wrap_title{
+    text-align: center;
+    margin-bottom: 4%;
+}
+.buy_wrap_boxs_0{
+    width: 100%;
+    padding: 4% 0;
+    font-size: 4vw;
+}
+.bwb_a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px #fff solid;
+    width: 100%;
+    height: 80px;
+    color: inherit;
+    text-decoration: none;
+    position: relative;
+}
+.buy_wrap_boxs_0 span{
+    position: absolute;
+    right: 5%;
+}
+
+.store_section{
+    padding: 150px 0;
+    background: #fff;
+    margin-top: -10%;
+
+}
+.store_section_inner{
+    flex-direction: column;
+    justify-content: center;
+    padding: 150px 0 0 0;
+}
+.ssi_title h2{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 7%;
+}
+.ssi_t_01{
+    font-size: 10.28571vw;
+}
+.ssi_t_02{
+    font-size: 4.28571vw;
+}
+.ssi_cnt{
+    width: 100%;
+}
+.ssi_cnt dl{
+    flex-direction: column;
+    margin-bottom: 0rem;
+}
+.ssi_cnt dt{
+    width: 100%;
+    padding: 6% 0 1%;
+    font-weight: 600;
+}
+.ssi_cnt dd{
+    width: 100%;
+    padding: 1% 0 6%;
+    margin-bottom: 0rem;
+}
+
+.map{
+    height: 500px;
+}
+
+.faq{
+    padding: 0 0 20% 0;
+}
+.faq_wrap_01{
+    width: 100%;
+    padding: 15% 8% 15%;
+}
+.faq_title h2{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 60px;
+    line-height: 1.5;
+}
+.ft_01{
+    font-size: 10.28571vw;
+}
+.ft_02{
+    font-family: '秀英明朝 L', 'Shuei Mincho';
+    font-size: 4.28571vw;
+}
+.faq_cnt_01{
+    font-size: 4.28571vw;
+    padding: 8% 10vw 8% 0;
+    border-top: 1px solid #D0D0D0;
+    cursor: pointer;
+    position: relative;
+}
+.faq_icon{
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    right: 20px;
+    /* transform: rotate(45deg); */
+    transition: 0.3s;
+}
+.faq_icon:before{
+    width: 1px;
+    height: 100%;
+    left: 50%;
+    top: 0;
+    background: #707070;
+    content: "";
+    display: block;
+    position: absolute
+}
+.faq_icon:after{
+    width: 100%;
+    height: 1px;
+    top: 50%;
+    left: 0;
+    background: #707070;
+    content: "";
+    display: block;
+    position: absolute
+}
+
+.faq_wrap_02{
+    width: 100%;
+    padding: 15% 8% 15%;
+    margin: 0;
+}
+.f02_title{
+    line-height: 1.5;
+    margin-bottom: 60px;
+    display: flex;
+    flex-direction: column;
+}
+.f02_title_a{
+    font-size: 10.28571vw;
+}
+.f02_title_b{
+    font-size: 4.28571vw;
+}
+
+.selectBox select{
+    width: 100%;
+    height: 47px;
+    padding: 8px 12px;
+    background-color: #F4F4F4;
+    border-style: none;
+    appearance: none;
+}
+.selectBox{
+    position: relative;
+}
+.selectBox:before {
+    content: "";
+    display: block;
+    width: 16px;
+    height: 16px;
+    border-bottom: 1px solid #707070;
+    border-left: 1px solid #707070;
+    position: absolute;
+    top: 12px;
+    right: 25px;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+input{
+    width: 100%;
+    height: 47px;
+    padding: 8px 12px;
+    background-color: #F4F4F4;
+    border: none;
+}
+dd{
+    margin-top: 8px;
+}
+dl{
+    margin-top: 22px;
+}
+textarea{
+    height: 210px;
+    width: 100%;
+    padding: 8px 12px;
+    background-color: #F4F4F4;
+    border: none;
+}
+button{
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+.r_icon{
+    height: 5px;
+    line-height: 5px;
+    display: inline-block;
+    position: absolute;
+    right: 15px;
+    top: calc(50% - 7px);
+}
+.typesquare_option{
+    position: relative;
+    color: #fff;
+    font-size: 21px;
+    font-family: '秀英明朝 L', 'Shuei Mincho';
+    width: 400px;
+    height: 80px;
+    background: #777E90;
+    border: 1px solid #777E90;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+.contactFormBtn{
+    text-align: center;
+    margin-top: 80px;
+}
+select{
+    font-size: 16px;
+}
+.contactForm dt{
+    font-weight: 500;
+}
+
+.typesquare_option{
+    width: 100%;
+}
+.bottomCnt{
+    padding: 10% 0 10%;
+    font-size: 4.28571vw;
+    line-height: 3.5;
+}
+
+small{
+    font-size: 2.85714vw;
+}
+.bgwhite{
+    width: 100%;
+}
+
+}
+
+@media screen and (max-width: 376px){
+    .top-bg{
+        height: 65px;
+    }
+    .about_02 .t00{
+        font-size: 12px;
+    }
+    .mw_box_0{
+        width: 260.71px;
+    }
+    .card-body{
+        padding: 0;
+    }
+    .bg_t p{
+        font-size: 12px;
+    }
+    .mw_box_0 .t00{
+        font-size: 12px;
+    }
+    .mw_box_text_cnt p{
+        font-size: 12px;
+    }
+    .menu_wrap{
+        height: 434px;
+    }
+    .bg_c{
+        display: none;
+    }
+    .bg_c_2{
+        font-size: 12px;
+    }
+    .mw_box_img img{
+        width: 260px;
+    }
+    .about_img2 img{
+    max-width: 100%;
+    height: auto;
+    font-size: 0;
+    line-height: 0;
+    vertical-align: bottom;
+    }
+    .bit_text_p_v2{
+        width: 285px;
+    }
+}
+
